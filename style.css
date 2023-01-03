@@ -1,6 +1,16 @@
 body {
-	max-width: 700px; 
+	max-width: 650px; 
+	font-size: 120%; 
 	margin: 0 auto;
 	padding: 10px;
-	font-family: -apple-system, system-ui, Verdana, sans-serif;
+	font-family: -apple-system, system-ui, sans-serif;
+}
+
+a {
+	color: #FF4F00;
+	text-decoration: none;
+}
+
+a.hover {
+	text-decoration: underline;
 }
