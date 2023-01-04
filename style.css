@@ -1,16 +1,23 @@
 body {
 	max-width: 650px; 
-	font-size: 120%; 
+	font-size: 100%; 
 	margin: 0 auto;
 	padding: 10px;
 	font-family: -apple-system, system-ui, sans-serif;
+	line-height: 1.5;
 }
 
-a {
+a, a:visited {
 	color: #FF4F00;
 	text-decoration: none;
 }
 
-a.hover {
+a:hover {
 	text-decoration: underline;
+}
+
+.sep {
+	height: 0;
+	padding-top: 2px;
+	background-color: #FF4F00;
 }
